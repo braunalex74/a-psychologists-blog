@@ -1,7 +1,6 @@
 import React from 'react';
-
 import LogoImage from '../assets/image/LogoImage.png';
-import { FiMail, FiSmartphone } from 'react-icons/fi';
+import { FiInstagram, FiMail } from 'react-icons/fi';
 import {
   Wrapper,
   PageHeader,
@@ -22,16 +21,16 @@ const Header = () => {
     <Wrapper>
       <PageHeader>
         <Container>
-          <PageHeaderContainer>
+          <PageHeaderContainer style={{ marginLeft: '-350px' }}>
             <Nav>
               <Logo href="./index.html" lang="en">
                 <img src={LogoImage} width="445" height="76" alt="LogoImage" />
               </Logo>
               <SiteNav>
-                <SiteNavItem>
+                <SiteNavItem style={{ marginLeft: '150px' }}>
                   <SiteNavLink
                     href="./index.html"
-                    class="site-nav__link site-nav__link--current point link"
+                    className="site-nav__link site-nav__link--current point link"
                     aria-current="page"
                   >
                     Головна
@@ -39,21 +38,21 @@ const Header = () => {
                 </SiteNavItem>
                 <SiteNavItem>
                   <SiteNavLink
-                    class="site-nav__link point link"
+                    className="site-nav__link point link"
                     href="./portfolio.html"
                   >
                     Блог
                   </SiteNavLink>
                 </SiteNavItem>
                 <SiteNavItem>
-                  <SiteNavLink class="site-nav__link point link" href="">
+                  <SiteNavLink className="site-nav__link point link" href="">
                     Контакти
                   </SiteNavLink>
                 </SiteNavItem>
                 <SiteNavItem>
                   <SiteNavLink
                     href="./index.html"
-                    class="site-nav__link site-nav__link--current point link"
+                    className="site-nav__link site-nav__link--current point link"
                     aria-current="page"
                   >
                     Про мене
@@ -61,25 +60,31 @@ const Header = () => {
                 </SiteNavItem>
               </SiteNav>
             </Nav>
-            <SiteContacts>
+            <SiteContacts style={{ marginLeft: '160px' }}>
               <SiteContactsItem>
                 <SiteContactsLink
-                  class="site-contacts__link site-contacts__link--contact point link"
+                  className="site-contacts__link site-contacts__link--contact point link"
                   href="yuliia.braun.co@gmail.com"
                   lang="en"
                 >
-                  <FiMail class="site-contacts__icon" />
+                  <FiMail
+                    className="site-contacts__icon"
+                    style={{ marginRight: '10px', color: 'CC0066' }}
+                  />{' '}
                   yuliia.braun.co@gmail.com
                 </SiteContactsLink>
               </SiteContactsItem>
               <SiteContactsItem>
                 <SiteContactsLink
-                  class="site-contacts__link site-contacts__link--contact point link"
+                  className="site-contacts__link site-contacts__link--contact point link"
                   href="https://www.instagram.com/psy_y.braun/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FiSmartphone class="site-contacts__icon" />
+                  <FiInstagram
+                    className="site-contacts__icon"
+                    style={{ marginRight: '10px', color: 'CC0066' }}
+                  />{' '}
                   @psy_y.braun
                 </SiteContactsLink>
               </SiteContactsItem>

@@ -1,40 +1,43 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-  position: absolute;
-  width: 279px;
+  /* position: absolute; */
   height: 19px;
+  margin-left: 0;
 `;
 
 export const PageHeader = styled.header`
   display: flex;
   align-items: center;
+  margin-left: 0;
+  height: 121px;
 `;
 
 export const Container = styled.div`
   margin-top: 0;
 
-  background-color: #f7edd4;
+  margin-bottom: 40px;
+  margin-left: 0;
 `;
 
 export const PageHeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 0;
+  background-color: #f7edd4;
 `;
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1280px;
+  margin-left: 0;
 `;
 
 export const Logo = styled.a`
-  width: 24px;
   margin-top: 0;
-  margin-right: 600px;
-  margin-left: 0;
+  margin-left: auto;
 `;
 
 export const SiteNav = styled.ul`
@@ -42,6 +45,7 @@ export const SiteNav = styled.ul`
   display: flex;
   align-items: center;
   margin-top: 50px;
+  width: 100vh;
 `;
 
 export const SiteNavItem = styled.li`
@@ -69,7 +73,7 @@ export const SiteContacts = styled.ul`
   align-items: center;
   list-style: none;
   margin-top: 20px;
-  margin-left: 300px;
+  margin-left: 0px;
 
   background-color: #f7edd4;
 `;

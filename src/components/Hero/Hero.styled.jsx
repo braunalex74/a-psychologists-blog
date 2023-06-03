@@ -10,6 +10,7 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 130px;
 
   background-image: url(${props => props.backgroundImage});
   position: absolute;
