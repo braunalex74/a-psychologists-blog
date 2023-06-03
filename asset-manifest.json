@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/a-psychologists-blog/static/js/main.12e3817a.js",
-    "static/media/hero_banner.jpg": "/a-psychologists-blog/static/media/hero_banner.2def28d6d8780bb98eb0.jpg",
+    "main.js": "/a-psychologists-blog/static/js/main.73d32b68.js",
+    "static/media/hero_banner.jpg": "/a-psychologists-blog/static/media/hero_banner.586382a31cce345281d0.jpg",
     "index.html": "/a-psychologists-blog/index.html",
-    "main.12e3817a.js.map": "/a-psychologists-blog/static/js/main.12e3817a.js.map"
+    "main.73d32b68.js.map": "/a-psychologists-blog/static/js/main.73d32b68.js.map"
   },
   "entrypoints": [
-    "static/js/main.12e3817a.js"
+    "static/js/main.73d32b68.js"
   ]
 }
