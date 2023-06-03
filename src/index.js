@@ -1,10 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Blog } from 'components/Blog';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { Blog } from './components/Blog';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Blog />
-  </React.StrictMode>
-);
+ReactDOM.render(<Blog />, document.getElementById('root'));
