@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LogoImage from './path/to/logo.png';
+import LogoImage from '../assets/image/LogoImage.png';
 import { FiMail, FiSmartphone } from 'react-icons/fi';
 import {
   Wrapper,
@@ -25,7 +25,7 @@ const Header = () => {
           <PageHeaderContainer>
             <Nav>
               <Logo href="./index.html" lang="en">
-                <img src={LogoImage} alt="LogoImage" />
+                <img src={LogoImage} width="445" height="76" alt="LogoImage" />
               </Logo>
               <SiteNav>
                 <SiteNavItem>
@@ -85,38 +85,6 @@ const Header = () => {
               </SiteContactsItem>
             </SiteContacts>
           </PageHeaderContainer>
-
-          <div class="container mobile-wrapper">
-            <a class="site-logo link" href="./index.html" lang="en">
-              <span class="site-logo__accent">Web</span>Studio
-            </a>
-            <button
-              type="button"
-              class="mobile-menu__button mobile-menu__toggle js-open-menu"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            >
-              <svg
-                class="mobile-menu__icon"
-                width="40"
-                height="40"
-                aria-label="Перемикач мобільного меню"
-              >
-                <use
-                  class="mobile-menu__icon-burger"
-                  href="./images/icons.svg#icon-burger"
-                ></use>
-                <use
-                  class="mobile-menu__icon-cross"
-                  href="./images/icons.svg#icon-mobile-close"
-                ></use>
-              </svg>
-            </button>
-
-            <div class="mob-menu-container js-menu-container" id="mobile-menu">
-              <div class="mob-menu-navigation">{/* Решта коду меню */}</div>
-            </div>
-          </div>
         </Container>
       </PageHeader>
     </Wrapper>
